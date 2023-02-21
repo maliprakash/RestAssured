@@ -1,0 +1,28 @@
+payload as file =>
+
+byte[] bytePayload = Files.readAllBytes(Paths.get("target//JsonFilePayload//Json01.json"));
+		
+		String payload = new String(bytePayload);
+		specBuilder.setBody(payload);
+
+====================================================================================================
+exception = io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+
+answer = use .asString() methode after response(). please make sure you are using .asString() methode inplace of .tostring() and your JSONPath is correct
+
+=================================================================================================================
+
+// url for practice : http://httpbin.org/
+// https://openweathermap.org/current
+
+//===============================================================================================================
+
+:HTTP/1.1 422 Unprocessable Entity
+[{"field":"email","message":"has already been taken"}]
+
+//===============================================================================================================
+
+
+
+
+

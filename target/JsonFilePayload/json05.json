@@ -1,0 +1,38 @@
+
+[
+  {
+   "firstname" : "pk",
+    "lastname" : "ml",
+    "age" : 28,
+    "address" :[
+
+      {
+        "city" : "ashta",
+        "country" : "india"
+      },
+      {
+        "city" : "bagani",
+        "country" : " india "
+      }
+    ]
+    
+  },
+  {
+   "firstname" : "pk",
+    "lastname" : "ml",
+    "age" : 28,
+    "address" :[
+
+      {
+        "city" : "ashta",
+        "country" : "india"
+      },
+      {
+        "city" : "bagani",
+        "country" : " india "
+      }
+    ]
+    
+  }
+]
+
